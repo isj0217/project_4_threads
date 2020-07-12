@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_finalScore"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최종 판매 금액: "
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/btn_goToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작 화면"
+        android:textSize="30sp"
+        android:background="@drawable/btn_sell" />
+
+    <Button
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/btn_tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한판 더!"
+        android:textSize="30sp"
+        android:background="@drawable/btn_sell" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/kitchen"
+        android:alpha="0.2">
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
